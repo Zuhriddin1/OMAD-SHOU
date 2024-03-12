@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://i.ytimg.com/vi/pYpOtHaE2es/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  align-items: center;
+}
+.text {
+  display: flex;
+  padding-left: 48px;
+  padding-top: 15px;
+  font-weight: 700;
+  color: yellow;
+}
+.reel {
+  width: 200px;
+  background: blue;
+  height: 200px;
+  border: 25px solid red;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+}
+.spokes {
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  background: #000000;
+  top: 50%;
+  left: 50%;
+  transform-origin: top;
+}
+.random-card {
+  margin-top: 90px;
+  font-size: 24px;
+  width: auto;
+  background: #ff0505;
+  color: white;
+}
